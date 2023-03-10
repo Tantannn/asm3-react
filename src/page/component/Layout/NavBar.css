@@ -1,0 +1,25 @@
+nav {
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: italic;
+    color: inherit;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline;
+}
+
+.nav-home {
+    color: bisque;
+}

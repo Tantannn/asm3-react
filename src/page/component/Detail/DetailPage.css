@@ -1,0 +1,36 @@
+.detail-page {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.detail-page div img {
+    width: 100px;
+    display: block;
+}
+
+.detail-page img {
+    width: 500px;
+}
+
+.detail-des {
+    margin-left: 50px;
+    width: 500px;
+}
+
+.relate-product {
+    display: flex;
+    margin-left: 50px;
+}
+.RELATEDRODUCTS {
+    margin-left: 30px;
+}
+.relate-product img {
+    height: 400px;
+    /* width: 30%; */
+}
+
+.relate-product h3 {
+    font-size:medium;
+    
+}

@@ -1,0 +1,13 @@
+.banner-container{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.banner-container img{
+    width: 100%;
+}

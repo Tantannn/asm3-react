@@ -1,0 +1,17 @@
+import React from "react";
+
+    function Asdasd({numberWithCommas}) {
+      return (<div className='product-list'>
+                <img src={detail[0].img1} className='' alt="" />
+                <img src={detail[0].img2} className='' alt="" />
+                <img src={detail[0].img3} className='' alt="" />
+                <img src={detail[0].img4} className='' alt="" />
+                <div>
+                    <h3>{detail[0].name} </h3>
+                    <p className='blur'>{numberWithCommas(detail[0].price)} </p>
+                    <p></p>
+                </div>
+            </div>);
+    }
+  
+  

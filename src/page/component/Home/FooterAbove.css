@@ -1,0 +1,76 @@
+.productService {
+    width: 100%;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.serviceTitle {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(242, 241, 241);
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+    font-style: italic;
+}
+
+.serviceTitleItem>h4 {
+    font-size:18px;
+    font-weight: 500;
+}
+
+.serviceTitleItem>h6{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: -13px;
+    margin-left: 5px;
+}
+
+.information {
+    width: 100%;
+    /* max-width: 550px; */
+    display: flex;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.informationTitle {
+    flex: 1;
+}
+
+.informationTitle>h4 {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.informationTitle>h6 {
+    font-size: 18px;
+    margin-top: -13px;
+    font-weight: lighter;
+}
+.informationInput {
+    margin-left: 10%  !important;
+    margin-right: 10% !important;
+}
+.informationInput>input {
+    margin-top: 20px;
+    width: 220px;
+    height: 30px;
+    border: 1px solid rgb(233, 230, 230);
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.informationInput>button {
+    width: 70px;
+    height: 35px;
+    border: 1px solid rgb(233, 230, 230);
+    background-color: rgb(33, 33, 33);
+    color: white;
+    font-size: 18px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
